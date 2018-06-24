@@ -1,5 +1,4 @@
 docker:
   cmd.run:
-    -name: |
-      sudo apt-get update
-      sudo apt-get install docker-ce -y
+    - name: apt update
+    - name: apt install docker -y

@@ -1,5 +1,5 @@
-#!/bin/sh
+#!/bin/bash
 
-apt-get update
+sudo apt-get update
 
-apt-get install docker-ce -Y
+sudo apt-get install docker-ce -Y

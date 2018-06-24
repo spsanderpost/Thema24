@@ -1,3 +1,5 @@
 docker:
-  cmd.script:
-    - source: salt://srv/salt/Thema24/saltstack/docker.sh
+  cmd.run:
+    -name: |
+      sudo apt-get update
+      sudo apt-get install docker-ce -y

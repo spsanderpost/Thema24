@@ -1,7 +1,5 @@
 docker:
-  pkg.installed:
-    - name: docker-engine
-service.running:
-  - name: docker
-  - require:
-    - pkg: docker-engine
+  cmd.script:
+    - source: salt://srv/saltstack/docker.sh
+    - cwd: /
+    - user: root

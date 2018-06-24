@@ -1,5 +1,5 @@
 docker:
   cmd.script:
-    - source: salt://srv/saltstack/docker.sh
+    - source: salt://srv/salt/Thema24/saltstack/docker.sh
     - cwd: /
     - user: root

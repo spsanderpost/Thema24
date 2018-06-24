@@ -2,4 +2,4 @@
 
 apt-get update
 
-apt-get install docker-ce
+apt-get install docker-ce -Y

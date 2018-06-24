@@ -1,5 +1,7 @@
 #!/bin/bash
 
-sudo apt-get update
+touch 'test.test'
 
-sudo apt-get install docker-ce -Y
+#sudo apt-get update
+
+#sudo apt-get install docker-ce -Y

@@ -1,4 +1,4 @@
 docker:
   cmd.run:
     - name: apt update
-    - name: apt install docker -y
+    - name: apt install docker.io -y

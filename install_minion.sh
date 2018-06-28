@@ -8,3 +8,5 @@ apt-get update
 
 # Install SaltStack Minion services
 apt-get install salt-minion -y
+
+# TO-DO: Keep track of the config file to contact salt master
